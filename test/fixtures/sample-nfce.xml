@@ -1,0 +1,14 @@
+<nfeProc versao="4.00" xmlns="http://www.portalfiscal.inf.br/nfe">
+  <NFe>
+    <infNFe Id="NFe35230145312456000112650010000000011000000011" versao="4.00">
+      <ide>
+        <mod>65</mod>
+        <dhEmi>2023-01-01T14:00:00-03:00</dhEmi>
+      </ide>
+      <emit>
+        <CNPJ>45312456000112</CNPJ>
+        <xNome>EMPRESA TESTE LTDA</xNome>
+      </emit>
+    </infNFe>
+  </NFe>
+</nfeProc>

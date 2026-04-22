@@ -9,7 +9,8 @@
   },
   "scripts": {
     "dry": "node src/cli.mjs --dry-run",
-    "import": "node src/cli.mjs"
+    "import": "node src/cli.mjs",
+    "test": "node test/discovery.test.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "^5.5.3",
