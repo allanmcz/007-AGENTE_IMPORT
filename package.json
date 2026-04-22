@@ -1,0 +1,21 @@
+{
+  "name": "icms-import-agent",
+  "version": "0.1.0",
+  "description": "Orquestrador local de importação de SPEDs e XMLs fiscais (NF-e/NFC-e) para o sistema ICMS-ST Restituição",
+  "type": "module",
+  "private": true,
+  "bin": {
+    "icms-import": "./src/cli.mjs"
+  },
+  "scripts": {
+    "dry": "node src/cli.mjs --dry-run",
+    "import": "node src/cli.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.5.3",
+    "dotenv": "^17.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
