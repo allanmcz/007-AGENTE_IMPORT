@@ -8,6 +8,7 @@
     "icms-import": "./src/cli.mjs"
   },
   "scripts": {
+    "start": "node src/gui-launcher.mjs",
     "dry": "node src/cli.mjs --dry-run",
     "import": "node src/cli.mjs",
     "test": "node test/discovery.test.mjs"
